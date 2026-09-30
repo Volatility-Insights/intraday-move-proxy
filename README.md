@@ -19,6 +19,13 @@ Bond volatility can provide useful context before broader market stress, but
 it does not always lead equity volatility. This repository does not establish
 predictive accuracy, causation, a hit rate, or avoided losses.
 
+## Video Companion
+
+The Volatility Insights episode walks through the calculation, monitoring
+alerts, and selected historical MOVE/VIX examples. Its YouTube description
+and timestamped chapters are in [docs/youtube-description.txt](docs/youtube-description.txt).
+The historical examples are context, not an intraday proxy backtest.
+
 ## Quick Start
 
 Python 3.10 or newer, with an IANA time-zone database containing

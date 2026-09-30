@@ -1,0 +1,41 @@
+Risk does not wait for the close. An end-of-day MOVE reading cannot show how Treasury-option uncertainty is changing during today's session. In this Volatility Insights episode, we explain an independent intraday MOVE proxy for monitoring bond volatility and reassessing exposure and hedge coverage before the next daily close.
+
+Starting with the calculation, we walk through Treasury futures-option selection, call and put implied volatility, the ZT/ZF/ZN/ZB basket with 20/20/40/20% weights, and anchoring the proxy to the latest available official MOVE close. A worked example shows how an anchor of 100 becomes 105. We also explain our 3% and 5% alert settings and how this extra lens fits alongside VIX, Treasury yields, and the VIX futures curve.
+
+Can bond volatility rise before a later VIX spike? We examine three selected historical daily sequences: the 2013 taper repricing, January-February 2018, and spring 2022. These examples motivate closer monitoring, but they are not a systematic backtest, proof of causation, or evidence of a reliable predictive signal.
+
+We also examine September 16-29, 2026: MOVE rose from 80.73 to 106.60 while VIX fell from 17.71 to 16.04. This dated divergence is a risk watch, not a prediction that a sell-off or VIX spike will follow. The comparison depends on the selected dates; September 30's still-open session is excluded.
+
+CALCULATION CODE
+https://github.com/Volatility-Insights/intraday-move-proxy
+
+CHAPTERS
+00:00 Why intraday bond-volatility monitoring matters
+00:34 Four Treasury futures families
+00:59 Selecting options near 30 days
+01:21 Call, put, and near-50-delta implied volatility
+01:46 Building the weighted volatility basket
+02:11 Anchoring the first session snapshot
+02:35 Worked example: 100 becomes 105
+03:00 Alerts and risk reassessment
+03:23 What this independent proxy measures
+03:48 Data requirements
+04:19 September 2026: MOVE and VIX divergence
+05:12 2013: taper repricing
+05:45 2018: before the VIX shock
+06:19 2022: before a later VIX spike
+06:58 An extra lens for market modeling
+07:26 Reproduce the method and understand its limits
+
+METHOD AND LIMITS
+This is an independent research proxy, not official MOVE or an exact reconstruction of its methodology. The basket measures futures-price implied volatility, not official MOVE's yield-volatility measure. Our reference uses a daily close; official MOVE is not exclusively an end-of-day product.
+
+The proxy captures changes after the first session snapshot, not overnight or earlier moves. Quote freshness, spreads, contract changes, volatility conventions, and the age of the MOVE anchor matter. Alert thresholds are our monitoring settings, not universal danger levels or standalone trading rules.
+
+Historical charts use Yahoo Finance daily MOVE and VIX observations. Opening animations and the worked example are illustrative, not historical proxy performance. No verified hit rate, investment performance, or losses avoided are claimed.
+
+Educational content only. Not investment advice.
+
+Volatility Insights: practical tools and clear insight into the volatility space.
+
+#volatility #VolatilityInsights #volatilitytrading #volatilityindex #MOVE #VIX #bondvolatility #Treasuries #riskmanagement
