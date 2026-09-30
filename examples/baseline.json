@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-09-30T09:30:00-04:00",
+  "move_close": {"date": "2026-09-29", "value": 100},
+  "tenors": {
+    "ZT": {
+      "futures": {"ZT-DEMO": 100},
+      "options": [
+        {"symbol": "ZT-DEMO-C", "underlying": "ZT-DEMO", "expiry": "2026-10-30", "dte": 30, "strike": 100, "delta": 0.5, "iv": 0.05, "mark": 1, "active": true, "vanilla": true},
+        {"symbol": "ZT-DEMO-P", "underlying": "ZT-DEMO", "expiry": "2026-10-30", "dte": 30, "strike": 100, "delta": -0.5, "iv": 0.05, "mark": 1, "active": true, "vanilla": true}
+      ]
+    },
+    "ZF": {
+      "futures": {"ZF-DEMO": 100},
+      "options": [
+        {"symbol": "ZF-DEMO-C", "underlying": "ZF-DEMO", "expiry": "2026-10-30", "dte": 30, "strike": 100, "delta": 0.5, "iv": 0.05, "mark": 1, "active": true, "vanilla": true},
+        {"symbol": "ZF-DEMO-P", "underlying": "ZF-DEMO", "expiry": "2026-10-30", "dte": 30, "strike": 100, "delta": -0.5, "iv": 0.05, "mark": 1, "active": true, "vanilla": true}
+      ]
+    },
+    "ZN": {
+      "futures": {"ZN-DEMO": 100},
+      "options": [
+        {"symbol": "ZN-DEMO-C", "underlying": "ZN-DEMO", "expiry": "2026-10-30", "dte": 30, "strike": 100, "delta": 0.5, "iv": 0.05, "mark": 1, "active": true, "vanilla": true},
+        {"symbol": "ZN-DEMO-P", "underlying": "ZN-DEMO", "expiry": "2026-10-30", "dte": 30, "strike": 100, "delta": -0.5, "iv": 0.05, "mark": 1, "active": true, "vanilla": true}
+      ]
+    },
+    "ZB": {
+      "futures": {"ZB-DEMO": 100},
+      "options": [
+        {"symbol": "ZB-DEMO-C", "underlying": "ZB-DEMO", "expiry": "2026-10-30", "dte": 30, "strike": 100, "delta": 0.5, "iv": 0.05, "mark": 1, "active": true, "vanilla": true},
+        {"symbol": "ZB-DEMO-P", "underlying": "ZB-DEMO", "expiry": "2026-10-30", "dte": 30, "strike": 100, "delta": -0.5, "iv": 0.05, "mark": 1, "active": true, "vanilla": true}
+      ]
+    }
+  }
+}
